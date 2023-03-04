@@ -84,7 +84,7 @@ applications!
 
 ### 2. Grading
 
-In total 100 points
+In total **100 points**
 
 - (10pt) The app contains three different tabs or similar layout elements.
 - (15pt) the opening page
@@ -104,4 +104,4 @@ In total 100 points
 - (20pt) Publishing
   - Link available, app works as intended on shinyapps.io.
   
-Finally tell us how many hours did you spend on this PS.
+**Finally** tell us how many hours did you spend on this PS.
