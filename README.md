@@ -20,8 +20,8 @@ Your task is to build your own shiny application. The application should provide
 ability to interactively explore the dataset you chose. What the application looks like is up to you,
 but see the sample app https://otoomet.shinyapps.io/uah-lower-troposphere/.
 
-The visualization can be made with base R graphics, ggplot2, plotly, leaflet for maps or some-
-thing else. While we don’t expect you to create anything ground-breaking, we do expect you to
+The visualization can be made with base R graphics, ggplot2, plotly, leaflet for maps or something else. 
+While we don’t expect you to create anything ground-breaking, we do expect you to
 create a clear visualization with proper labels and titles. And of course, the graphic needs to react
 to changing values in the widgets.
 
@@ -37,7 +37,7 @@ Just putting everything underneath each other is not OK.
 
 3. The tab and plot page have a side panel in which you’ve created at least two widgets that
 change the visual output in your application, such as type of the plot, or data displayed on
-the xor yaxis of a scatterplot.
+the x or y axis of a scatterplot.
 Note: I mean a side panel but it does not have to be sidebarLayout.
 
 4. The main panel of these pages displays data (as a plot or a table).
@@ -105,3 +105,4 @@ In total **100 points**
   - Link available, app works as intended on shinyapps.io.
   
 **Finally** tell us how many hours did you spend on this PS.
+
