@@ -105,4 +105,4 @@ In total **100 points**
   - Link available, app works as intended on shinyapps.io.
   
 **Finally** tell us how many hours did you spend on this PS.
-30 min so far
+
