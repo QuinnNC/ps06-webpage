@@ -44,7 +44,7 @@ ui <- fluidPage(
                # main pabel with plot
                mainPanel(
                  textOutput("sum"),
-                 plotOutput("plot", width = "800"),)
+                 plotOutput("plot", width = "900"),)
                ),
       
       # tab 3
@@ -102,8 +102,16 @@ server <- function(input, output) {
       ggplot(aes(work_year, salary_in_usd, col = job_title)) + 
         geom_point() +
         scale_color_brewer(palette = input$theme) +
+        labs(
+          title = "Career Salary over time",
+          x = "Work year", 
+          y = "Salary (USD)", 
+          col = "Career(s)") +
+        theme(plot.title=element_text(hjust=0.5)) +
+        scale_x_continuous(breaks =  seq(2020, 2022, 1)) +
+        scale_y_continuous(labels = scales::comma) +
         if (input$checkbox == TRUE) {
-          geom_smooth(method = lm) 
+          geom_smooth(method = lm, se = FALSE) 
         } 
   })
   
