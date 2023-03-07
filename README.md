@@ -37,7 +37,7 @@ Just putting everything underneath each other is not OK.
 
 3. The tab and plot page have a side panel in which you’ve created at least two widgets that
 change the visual output in your application, such as type of the plot, or data displayed on
-the xor yaxis of a scatterplot.
+the x or y axis of a scatterplot.
 Note: I mean a side panel but it does not have to be sidebarLayout.
 
 4. The main panel of these pages displays data (as a plot or a table).
