@@ -4,7 +4,7 @@
 
 Link to shiny.io page: [Project link](https://quinnnc.shinyapps.io/ps06assignment/)
 
-The Shiny App pulls its information from [Kaggle](kaggle.com). 
+The Shiny App pulls its information from [Kaggle](https://www.kaggle.com/). 
 
 The objective of the dataset is to provide information regarding different 
 possible career paths if one were to have a degree in Informatics. 
